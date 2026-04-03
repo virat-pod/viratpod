@@ -14,7 +14,7 @@ const Hero = () => {
     
 
   return (
-    <section className="hero-section relative h-[70vh] sm:min-h-[90vh] flex flex-col justify-center items-center">
+    <section className="hero-section relative h-[74vh] sm:min-h-[90vh] flex flex-col justify-center items-center">
         <HeroLeftCard />
         <div className="flex flex-col gap-5.5 md:gap-8 justify-center items-center">
 
