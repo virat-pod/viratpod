@@ -22,7 +22,7 @@ export default function TechStack() {
 
   return (
     <section
-      className={`relative pt-3 px-3 sm:px-6 overflow-hidden`}
+      className={`relative px-3 sm:px-6 overflow-hidden`}
     >
 
       <div

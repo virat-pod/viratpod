@@ -12,7 +12,7 @@ const HeroLeftCards = () => {
   return (
     <div
       style={{ opacity: Math.max(0, 1 - ScrollY / 300) }}
-      className="hidden xl:flex absolute left-0 flex-col top-8 pr-4"
+      className="hidden xl:flex absolute left-0 top-1/2 -translate-y-1/2 flex-col pr-4"
     >
 
       <div

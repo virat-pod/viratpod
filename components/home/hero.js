@@ -14,9 +14,9 @@ const Hero = () => {
     
 
   return (
-    <section className="hero-section relative flex flex-col justify-center items-center">
+    <section className="hero-section relative h-[70vh] sm:min-h-[90vh] flex flex-col justify-center items-center">
         <HeroLeftCard />
-        <div className="flex flex-col gap-5.5 md:gap-8 justify-center items-center sm:pt-8.5">
+        <div className="flex flex-col gap-5.5 md:gap-8 justify-center items-center">
 
           <div ref={badge.ref} style={badge.style} className={`flex ${badge.className} items-center gap-2 px-4 py-2 rounded-full bg-white/85 border border-stone-200 text-sm text-stone-600`}>
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
