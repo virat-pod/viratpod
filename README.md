@@ -2,7 +2,7 @@
 
 Personal portfolio website built with Next.js, Tailwind CSS v4, and next-themes. Clean, fast, dark mode supported.
 
-**Live →** [your-domain.com](https://your-domain.com)
+**Live →** [Portfolio](https://viratpod.vercel.app/)
 
 ---
 
@@ -95,4 +95,4 @@ components/
 
 ## Contact
 
-Made by **Virat** — [your@email.com](mailto:your@email.com)
+Made by **Virat** — [viratpoddar2012@email.com](mailto:viratpoddar2012@email.com)
