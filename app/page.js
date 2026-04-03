@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <main className="flex flex-col bg-stone-300/25 px-3 pb-12 pt-12 sm:pb-36 gap-24 sm:gap-28 md:gap-30">
       <div className="making-hero-visible-more flex flex-col gap-10">
-      <Hero />
-      <TechStack />
+        <Hero />
+        <TechStack />
       </div>
       <ProjectSlider />
       <FAQ />
