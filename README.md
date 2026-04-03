@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Virat's Portfolio
+
+Personal portfolio website built with Next.js, Tailwind CSS v4, and next-themes. Clean, fast, dark mode supported.
+
+**Live →** [your-domain.com](https://your-domain.com)
+
+---
+
+## Stack
+
+- **Framework** — Next.js 15 (App Router)
+- **Styling** — Tailwind CSS v4
+- **Dark Mode** — next-themes
+- **Fonts** — Space Grotesk, Dancing Script (Google Fonts)
+- **Form** — InputHaven
+- **Booking** — Cal.com
+
+---
+
+## Features
+
+- Dark / light mode toggle
+- Animated mobile nav drawer (right to left slide)
+- Project slider with auto-advance
+- Contact form with Indian phone validation (+91, 10 digits)
+- Book a call section via Cal.com
+- FAQ section
+- Scroll-triggered animations
+- Fully responsive
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+app/
+├── page.js          # Home page
+├── about/page.js    # About page
+├── layout.js        # Root layout with fonts + providers
+└── globals.css      # Tailwind config + theme tokens
 
-To learn more about Next.js, take a look at the following resources:
+components/
+├── navbar.jsx
+├── footer.jsx
+├── TechStack.jsx
+├── ProjectSlider.jsx
+├── FAQ.jsx
+├── Contact.jsx
+└── theme/
+    └── themeContext.js
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Sections
 
-## Deploy on Vercel
+| Section | Description |
+|---|---|
+| Hero | Intro with tagline |
+| Tech Stack | Technologies I work with |
+| Projects | Slider with live project cards |
+| FAQ | Common questions before hiring |
+| Contact | Form + book a call |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Customization
+
+**Add a project** — edit the `projects` array in `ProjectSlider.jsx`
+
+**Update contact email** — change `href` in `Contact.jsx`
+
+**Book a call link** — replace `YOUR_CALENDLY_OR_CAL_LINK` in `Contact.jsx` with your Cal.com link
+
+**Resume** — drop your PDF in `/public/resume.pdf`
+
+---
+
+## Contact
+
+Made by **Virat** — [your@email.com](mailto:your@email.com)
