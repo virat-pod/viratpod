@@ -6,6 +6,16 @@ import useReveal from "@/lib/animations/reveal";
 const projects = [
   {
     id: 1,
+    title: "White Green Decors",
+    tag: "Full Stack",
+    year: "2026",
+    desc: "A modern full-stack social engagement platform designed to connect users through interactive features, real-time updates, and a clean user experience. It enables seamless interaction, content sharing, and community building in a fun and intuitive way.",
+    tech: ["Next.js", "MongoDB", "Tailwind CSS"],
+    image: "/projects/whitegreendecor/sc2.png",
+    link: "https://whitegreendecors.com",
+  },
+  {
+    id: 2,
     title: "Get Me A Chai",
     tag: "Full Stack",
     year: "2026",
@@ -15,7 +25,7 @@ const projects = [
     link: "https://get-me-a-chai-buzz.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Workflows Builders",
     tag: "Full Stack",
     year: "2026",
@@ -25,7 +35,7 @@ const projects = [
     link: "https://workflows-builders.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Spotify-Vibes",
     tag: "Frontend",
     year: "2025",
@@ -35,7 +45,7 @@ const projects = [
     link: "https://spotify-vibes.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Twitter",
     tag: "Frontend",
     year: "2025",
