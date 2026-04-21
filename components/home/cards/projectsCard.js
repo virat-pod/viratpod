@@ -9,7 +9,7 @@ const projects = [
     title: "White Green Decors",
     tag: "Full Stack",
     year: "2026",
-    desc: "A modern full-stack social engagement platform designed to connect users through interactive features, real-time updates, and a clean user experience. It enables seamless interaction, content sharing, and community building in a fun and intuitive way.",
+    desc: "A modern full-stack ecommerce platform designed to connect users through interactive features, real-time updates, and a clean user experience. It enables seamless interaction, content sharing, and community building in a fun and intuitive way.",
     tech: ["Next.js", "MongoDB", "Tailwind CSS"],
     image: "/projects/whitegreendecor/sc2.png",
     link: "https://whitegreendecors.com",
