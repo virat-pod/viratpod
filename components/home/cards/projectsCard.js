@@ -84,7 +84,7 @@ export default function ProjectSlider() {
   const p = projects[active];
 
   return (
-    <section id="projects" className="py-2 px-3 sm:px-6 h-[46rem] sm:h-fit">
+    <section id="projects" className="py-2 px-3 sm:px-6 h-[48rem] sm:h-fit">
       <div
         ref={section.ref}
         style={section.style}
