@@ -4,8 +4,8 @@ import useReveal from "@/lib/animations/reveal";
 
 const faqs = [
   {
-    q: "Are you available for freelance work?",
-    a: "Yes, I'm currently open to freelance and contract projects. Whether it's a full product or just a specific feature — reach out and we'll figure it out.",
+  q: "Are you available for work?",
+  a: "Yes, I'm currently open to roles and agency collaborations. Whether it's building a complete product or contributing to specific features, I'm happy to connect and explore how I can add value.",
   },
   {
     q: "How long does a typical project take?",
