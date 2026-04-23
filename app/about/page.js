@@ -1,9 +1,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "About ViratPod",
+  title: "About Virat Pod (ViratPoddar) | Full Stack Web Developer",
   description:
-    "I'm a full stack developer who builds clean, fast, and useful web applications. Open to work.",
+    "Learn about Virat Poddar, also known as ViratPod — a Full Stack Web Developer who builds fast, scalable, and modern web applications. Passionate about creating clean, user-focused digital products using React, Next.js, and Node.js. Open to freelance work and collaboration opportunities.",
 };
 
 const about = () => {
