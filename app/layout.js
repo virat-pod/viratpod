@@ -33,8 +33,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "ViratPod | Full Stack Developer",
-  description: "I build fast, scalable, and real-world web applications.",
+  title: "Virat Pod (ViratPoddar) | Full Stack Web Developer",
+  description:
+    "Virat Poddar, also known as ViratPod, is a Full Stack Web Developer who builds fast, scalable, and production-ready web applications and websites. He specializes in modern technologies like React, Next.js, and Node.js to deliver real-world digital products with strong performance and clean design.",
 };
 
 export default function RootLayout({ children }) {
