@@ -8,6 +8,7 @@ import "./globals.css";
 import ScrollWrapper from "@/components/wrapper/scrollWrapper";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -49,6 +50,7 @@ export default function RootLayout({ children }) {
           <Footer />
         </ScrollWrapper>
       </body>
+      <GoogleAnalytics gaId="G-5LRTZJR0GM" />
     </html>
   );
 }
