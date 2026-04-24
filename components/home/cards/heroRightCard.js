@@ -61,7 +61,7 @@ const HeroRightCards = () => {
           </div>
           <div className="text-center">
             <p className="font-bold text-stone-800">3</p>
-            <p className="text-stone-400 text-xs">Awards</p>
+            <p className="text-stone-400 text-xs">Top Repos.</p>
           </div>
         </div>
       </div>{" "}
