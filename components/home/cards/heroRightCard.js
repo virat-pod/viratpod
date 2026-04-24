@@ -14,28 +14,29 @@ const HeroRightCards = () => {
       style={{ opacity: Math.max(0, 1 - ScrollY / 300) }}
       className="hidden xl:flex absolute right-0 top-1/2 -translate-y-1/2 flex-col pr-4"
     >
-      <div
-        ref={card1.ref}
-        style={card1.opacity}
-        className={`${card1.className} -translate-x-14 rotate-3 transition-all bg-white border border-stone-200 rounded-xl p-4 shadow-sm w-56`}
-      >
-        <div className="flex items-center gap-2 mb-2">
-          <span className="w-8 h-8 bg-amber-100 rounded-lg flex items-center justify-center text-amber-600">
-            ⚡
-          </span>
-          <span className="font-grotesk font-semibold text-stone-800">
-            Latest Project
-          </span>
-        </div>
-        <p className="text-sm text-stone-500">
-          Ai's powered dashboard with some mututal ai's featured
-        </p>
-        <div className="flex items-center gap-2 mt-3 text-xs text-stone-400">
-          {" "}
-          <span className="px-2 py-1 bg-stone-100 rounded">Next.js</span>
-          <span className="px-2 py-1 bg-stone-100 rounded">Express.js</span>
-        </div>
-      </div>
+<div
+  ref={card1.ref}
+  style={card1.opacity}
+  className={`${card1.className} -translate-x-14 rotate-3 transition-all bg-white border border-stone-200 rounded-xl p-4 shadow-sm w-56`}
+>
+  <div className="flex items-center gap-2 mb-2">
+    <span className="w-8 h-8 bg-amber-100 rounded-lg flex items-center justify-center text-amber-600">
+      ⚡
+    </span>
+    <span className="font-grotesk font-semibold text-stone-800">
+      Recent Build
+    </span>
+  </div>
+
+  <p className="text-sm text-stone-500">
+    Built a dashboard that tracks user activity and generates AI summaries for daily usage insights.
+  </p>
+
+  <div className="flex items-center gap-2 mt-3 text-xs text-stone-400">
+    <span className="px-2 py-1 bg-stone-100 rounded">Next.js</span>
+    <span className="px-2 py-1 bg-stone-100 rounded">Express.js</span>
+  </div>
+</div>
       <div
         ref={card2.ref}
         style={card2.opacity}
