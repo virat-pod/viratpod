@@ -57,23 +57,30 @@ const HeroLeftCards = () => {
       </div>
 
 
-      <div
-        ref={card3.ref}
-        style={card3.opacity}
-        className={`${card3.className} rotate-4 translate-x-12 mt-3 transition-all bg-white border border-stone-200 rounded-xl p-4 shadow-sm w-56`}
-      >
-        <p className="text-xs text-stone-400 mb-2">Recent Review</p>
-        <p className="text-sm text-stone-600 italic">
-          "Delivered exactly what we needed. Clean code, fast delivery."
-        </p>
-        <div className="flex items-center gap-2 mt-3">
-          <span className="w-6 h-6 bg-amber-200 rounded-full flex items-center justify-center text-xs">
-            R
-          </span>
-          <span className="text-xs text-stone-500">Ronie D. — Startup CEO</span>
-        </div>{" "}
-        <div className="flex gap-0.5 mt-2 text-amber-400 text-xs">★★★★★</div>
-      </div>
+<div
+  ref={card3.ref}
+  style={card3.opacity}
+  className={`${card3.className} rotate-4 translate-x-12 mt-3 transition-all bg-white border border-stone-200 rounded-xl p-4 shadow-sm w-56`}
+>
+  <p className="text-xs text-stone-400 mb-2">Client Feedback</p>
+
+  <p className="text-sm text-stone-600 italic">
+    “We needed a fast landing page for our waitlist. He shipped it in 3 days and it actually converted better than our old site.”
+  </p>
+
+  <div className="flex items-center gap-2 mt-3">
+    <span className="w-6 h-6 bg-emerald-200 rounded-full flex items-center justify-center text-xs">
+      A
+    </span>
+    <span className="text-xs text-stone-500">
+      Aditi R. — Decoration Com.
+    </span>
+  </div>
+
+  <div className="flex gap-0.5 mt-2 text-amber-400 text-xs">
+    ★★★★☆
+  </div>
+</div>
     </div>
   );
 };
