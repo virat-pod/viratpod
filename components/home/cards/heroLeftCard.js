@@ -78,7 +78,7 @@ const HeroLeftCards = () => {
   </div>
 
   <div className="flex gap-0.5 mt-2 text-amber-400 text-xs">
-    ★★★★☆
+    ★★★★⯪
   </div>
 </div>
     </div>
