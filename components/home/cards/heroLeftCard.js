@@ -65,7 +65,7 @@ const HeroLeftCards = () => {
   <p className="text-xs text-stone-400 mb-2">Client Feedback</p>
 
   <p className="text-sm text-stone-600 italic">
-    “We needed a fast landing page for our waitlist. He shipped it in 3 days and it actually converted better than our old site.”
+    “We replaced our outdated marketing page with a cleaner, faster version. The new build improved load speed and made the signup flow much smoother.”
   </p>
 
   <div className="flex items-center gap-2 mt-3">
