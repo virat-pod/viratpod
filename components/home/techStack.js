@@ -9,6 +9,7 @@ const technologies = [
   { name: "Next.js", icon: "/svg-icons/nextjs.svg", tag: "Framework" },
   { name: "Tailwind", icon: "/svg-icons/tailwind.svg", tag: "Styling" },
   { name: "Node.js", icon: "/svg-icons/nodejs.svg", tag: "Runtime" },
+  { name: "Postgresql", icon: "/svg-icons/postgresql.svg", tag: "Database" },
 ];
 
 const stats = [
@@ -21,16 +22,12 @@ export default function TechStack() {
   const section = useReveal(300, 5);
 
   return (
-    <section
-      className={`relative px-3 sm:px-6 overflow-hidden`}
-    >
-
+    <section className={`relative px-3 sm:px-6 overflow-hidden`}>
       <div
         ref={section.ref}
         style={section.style}
         className={`relative ${section.className} max-w-4xl mx-auto`}
       >
-
         <div className={`mb-5 sm:mb-8 `}>
           <p className="text-xs tracking-[0.3em] uppercase text-stone-400 dark:text-stone-500 mb-3">
             Stack
@@ -72,7 +69,6 @@ export default function TechStack() {
             </div>
           ))}
         </div>
-
 
         <div
           className={`flex  items-center gap-0 border border-stone-200  rounded-2xl overflow-hidden`}

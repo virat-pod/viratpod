@@ -4,12 +4,12 @@ import useReveal from "@/lib/animations/reveal";
 
 const faqs = [
   {
-  q: "Are you available for work?",
-  a: "Yes, I'm currently open to roles and agency collaborations. Whether it's building a complete product or contributing to specific features, I'm happy to connect and explore how I can add value.",
+    q: "Are you available for work?",
+    a: "Yes, I'm currently open to roles and agency collaborations. Whether it's building a complete product or contributing to specific features, I'm happy to connect and explore how I can add value.",
   },
   {
     q: "How long does a typical project take?",
-    a: "Depends on scope. A landing page takes 3–5 days. A full stack app with auth, database, and dashboard usually takes 2–4 weeks. I always give a clear timeline before starting.",
+    a: "Project timelines depend on the scope and complexity. A simple landing page typically takes 3–5 days, while a full-stack application with authentication, database integration, and a dashboard usually requires 2–4 weeks. I always provide a clear, detailed timeline upfront so expectations are aligned from the start.",
   },
   {
     q: "What do you actually deliver?",
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "Why should I hire you over someone more experienced?",
-    a: "I'm hungry, fast, and I actually care about the output. Senior devs juggle 5 clients — I focus on yours. And my rates reflect where I am, not where I'm going.",
+    a: "I focus on delivering high-quality work with speed and attention to detail. I prefer working on a limited - more number of projects so I can give each one the focus it deserves. My goal is to provide reliable, well-crafted solutions while maintaining clear communication and timelines.",
   },
 ];
 
@@ -40,7 +40,6 @@ export default function FAQ() {
         style={section.style}
         className={`max-w-4xl ${section.className} mx-auto`}
       >
-
         <div className="mb-1 sm:mb-7 sm:mb-8">
           <p className="text-xs tracking-[0.3em] uppercase text-stone-400 dark:text-stone-500 mb-3">
             FAQ
@@ -52,7 +51,6 @@ export default function FAQ() {
             Honest answers to things people actually wonder before hiring a dev.
           </p>
         </div>
-
 
         <div className="divide-y divide-stone-100 dark:divide-stone-800">
           {faqs.map((faq, i) => (
@@ -88,7 +86,6 @@ export default function FAQ() {
             </div>
           ))}
         </div>
-
 
         <div className="sm:mt-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 pt-4 sm:pt-8 border-t border-stone-100 dark:border-stone-800">
           <div>

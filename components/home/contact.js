@@ -57,7 +57,6 @@ export default function Contact() {
         style={section.style}
         className={`max-w-4xl ${section.className} mx-auto`}
       >
-
         <div className="mb-12">
           <p className="text-xs tracking-[0.3em] uppercase text-stone-400 dark:text-stone-500 mb-3">
             Contact
@@ -66,12 +65,12 @@ export default function Contact() {
             Let's work together
           </h2>
           <p className="text-stone-500 dark:text-stone-400 mt-4 text-base">
-            Got a project in mind? Drop a message or book a call directly.
+            Got a project or question in mind? Drop a message or book a call
+            directly.
           </p>
         </div>
 
         <div className=" grid grid-cols-1 lg:grid-cols-5 gap-6">
-
           <div className="lg:col-span-3 border bg-white border-stone-200 dark:border-stone-800 rounded-2xl p-4 sm:p-8">
             {sent ? (
               <div className="h-full flex flex-col items-center justify-center text-center py-12 gap-4">
@@ -96,7 +95,6 @@ export default function Contact() {
               </div>
             ) : (
               <div className="flex flex-col gap-5">
-
                 <div>
                   <label className="text-xs text-stone-500 dark:text-stone-400 tracking-wide uppercase mb-2 block">
                     Name <span className="text-stone-400">*</span>
@@ -152,7 +150,6 @@ export default function Contact() {
                   )}
                 </div>
 
-   
                 <div>
                   <label className="text-xs text-stone-500 dark:text-stone-400 tracking-wide uppercase mb-2 block">
                     Message <span className="text-stone-400">*</span>
@@ -179,9 +176,7 @@ export default function Contact() {
             )}
           </div>
 
-
           <div className="lg:col-span-2 flex flex-col gap-4">
-
             <div className="bg-white flex-1 border border-stone-200 dark:border-stone-800 rounded-2xl p-8 flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 rounded-full bg-stone-100 dark:bg-stone-800 flex items-center justify-center text-lg mb-5">
@@ -191,8 +186,8 @@ export default function Contact() {
                   Book a free call
                 </h3>
                 <p className="text-stone-500 dark:text-stone-400 text-sm leading-relaxed">
-                  15 minutes. No pressure. We'll talk about your project and
-                  figure out if we're a good fit.
+                  15 minutes. No pressure. We'll talk about your project or
+                  doubt and figure out if we're a good fit.
                 </p>
               </div>
               <a
@@ -204,7 +199,6 @@ export default function Contact() {
                 Pick a time →
               </a>
             </div>
-
 
             <div className="bg-white border border-stone-200 dark:border-stone-800 rounded-2xl p-6 flex flex-col gap-4">
               <div className="flex items-center gap-3">

@@ -14,7 +14,6 @@ const HeroRightCards = () => {
       style={{ opacity: Math.max(0, 1 - ScrollY / 300) }}
       className="hidden xl:flex absolute right-0 top-1/2 -translate-y-1/2 flex-col pr-4"
     >
-
       <div
         ref={card1.ref}
         style={card1.opacity}
@@ -37,7 +36,6 @@ const HeroRightCards = () => {
           <span className="px-2 py-1 bg-stone-100 rounded">Express.js</span>
         </div>
       </div>
-
       <div
         ref={card2.ref}
         style={card2.opacity}
@@ -66,7 +64,6 @@ const HeroRightCards = () => {
           </div>
         </div>
       </div>{" "}
-
       <div
         ref={card3.ref}
         style={card3.opacity}
@@ -87,7 +84,25 @@ const HeroRightCards = () => {
             Tailwind
           </span>
         </div>
-      </div>{" "}
+
+        {/* Scroll hint */}
+        <div className="flex items-center gap-1 mt-3 text-stone-600">
+          <p className="text-[10px]">more skills</p>
+          <svg
+            className="w-3 h-3 animate-bounce"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </div>
+      </div>
     </div>
   );
 };
