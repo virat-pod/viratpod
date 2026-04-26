@@ -56,7 +56,7 @@ export default function Footer() {
             />
           </a>
           <a
-            href="https://www.instagram.com/viratpod/"
+            href="https://www.instagram.com/vira.tpod/"
             target="_blank"
             rel="noreferrer"
             className="p-2 rounded-lg border border-stone-200 bg-white hover:border-stone-300 text-stone-500 hover:text-stone-800 transition-all"
