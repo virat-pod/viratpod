@@ -84,7 +84,7 @@ const Hero = () => {
                 />
               </a>
               <a
-                href="https://www.instagram.com/viratpod/"
+                href="https://www.instagram.com/vira.tpod/"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-stone-800 transition-colors"
