@@ -33,7 +33,7 @@ const Navbar = () => {
             href={`${pathname === "/" ? "#contact" : "/#contact"}`}
             className="bg-gray-900 hover:bg-gray-800 text-white px-5 py-2.5 rounded-full cursor-pointer"
           >
-            Contact
+            Hire me
           </Link>
 
           <button
