@@ -155,7 +155,7 @@ export default function Contact() {
                   </label>
                   <textarea
                     rows={4}
-                    placeholder="Tell me about your project..."
+                    placeholder="Tell me about the role or opportunity..."
                     value={form.message}
                     onChange={(e) =>
                       setForm((p) => ({ ...p, message: e.target.value }))
