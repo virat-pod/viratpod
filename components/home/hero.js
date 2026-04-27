@@ -45,7 +45,7 @@ const Hero = () => {
             <div ref={cta.ref} style={cta.style} className={`flex ${cta.className} flex-row items-center gap-3 sm:gap-4 mt-4`}>
               <Link href="#contact">
                 <button className="py-3 px-8 bg-stone-800 hover:bg-stone-900 text-white rounded-full font-medium transition-all hover:scale-[1.02] active:scale-95">
-                  Get in touch
+                  Hire me
                 </button>
               </Link>
               <Link href="#projects">
