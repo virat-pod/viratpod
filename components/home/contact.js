@@ -65,8 +65,7 @@ export default function Contact() {
             Let's work together
           </h2>
           <p className="text-stone-500 dark:text-stone-400 mt-4 text-base">
-            Got a project or question in mind? Drop a message or book a call
-            directly.
+            Open to full-time opportunities. I’m looking to join a team where I can build, learn, and grow while contributing to real-world projects that make an impact.
           </p>
         </div>
 
@@ -186,8 +185,8 @@ export default function Contact() {
                   Book a free call
                 </h3>
                 <p className="text-stone-500 dark:text-stone-400 text-sm leading-relaxed">
-                  15 minutes. No pressure. We'll talk about your project or
-                  doubt and figure out if we're a good fit.
+                  15 minutes, no pressure. Let’s have a quick conversation about the role,
+                  your expectations, and my skills to see if we’re a good fit for working together.
                 </p>
               </div>
               <a
