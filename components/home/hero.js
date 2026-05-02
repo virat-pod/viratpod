@@ -38,8 +38,8 @@ const Hero = () => {
    
             <p  ref={titlePara.ref} style={titlePara.style} className={`text-center ${titlePara.className} text-stone-500 text-base sm:text-lg max-w-xl`}>
               I build modern web experiences with clean code and pixel-perfect
-              design. Currently crafting things with Next.js, React, and a lot
-              of chai.
+              design. Currently crafting things with MERN stack, Postgresql, and a lot
+              of tea.
             </p>
 
             <div ref={cta.ref} style={cta.style} className={`flex ${cta.className} flex-row items-center gap-3 sm:gap-4 mt-4`}>
