@@ -15,7 +15,7 @@ const technologies = [
 const stats = [
   { value: "10+", label: "Projects" },
   { value: "2000+", label: "Commits" },
-  { value: "8mo+", label: "Experience" },
+  { value: "1yr+", label: "Experience" },
 ];
 
 export default function TechStack() {
